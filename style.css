@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(rgb(19, 19, 19), rgb(57, 56, 56));
+}
+
+header {
+    background-color: #5A5AF1;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-image: url(assets/car-secury.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-bottom: solid 1px #0d0dc2;
+}
+
+
+.banner img {
+    vertical-align: middle;
+    width: 30%;
+
+
+}.banner h1 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 40px;
+    justify-content: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 28px;
+    text-transform: uppercase;
+    background-image: linear-gradient(gray, #460ad1); /* Gradiente de azul para um azul mais claro */
+    color: transparent; /* Torna o texto transparente */
+}
+
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.client-login {
+    background-color: #5A5AF1;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 1px #0d0dc2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+
+.client-login input[type="text"],
+.client-login input[type="password"],
+.client-login button {
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.client-login button {
+    background-color: #0d0dc2;
+    color: white;
+    cursor: pointer;
+    width: 35%;
+    transition: background-color 0.8s;
+}
+
+.client-login button:hover {
+    background-color: #fff;
+    color: #5A5AF1;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    font-size: 18px;
+    overflow: auto;
+    padding-left: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #0d0dc2;
+    background-image: url(assets/satelite.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+
+}
+
+.about h1 {
+    padding-left: 20px;
+    color: white;
+    
+}
+ 
+.about p {
+    padding-left: 20px;
+    color: white;
+    font-size: larger;
+}
+
+.about ul {
+    padding-left: 20px;
+    color: white;
+}
+
+.plans-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.plans-content h1 {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-right: 60%;
+    padding-left: 50%;    
+}
+
+.plans {
+    background-color: #7b7bdc;
+    background-image: url(assets/frota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(37, 35, 35);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.plans:hover {
+    transform: scale(1.1); 
+}
+
+
+.plans p {
+    font-size: 18px;
+}
